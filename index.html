@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghaith Abo Adla - Odoo Developer</title>
+    <style>
+        /* Reset and base */
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+        body { line-height: 1.6; color: #333; background-color: #f9f9f9; }
+        a { color: #007BFF; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        /* Header */
+        header { background: #007BFF; color: white; padding: 40px 20px; text-align: center; }
+        header h1 { font-size: 2.5rem; margin-bottom: 10px; }
+        header p { font-size: 1.2rem; }
+
+        /* Sections */
+        section { padding: 60px 20px; max-width: 1000px; margin: auto; }
+        section h2 { font-size: 2rem; margin-bottom: 20px; border-bottom: 2px solid #007BFF; display: inline-block; padding-bottom: 5px; }
+
+        /* Skills */
+        .skills { display: flex; flex-wrap: wrap; gap: 10px; }
+        .skills span { background: #007BFF; color: white; padding: 8px 12px; border-radius: 5px; font-size: 0.9rem; }
+
+        /* Projects */
+        .project { background: white; padding: 20px; margin-bottom: 20px; border-radius: 5px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+        .project h3 { margin-bottom: 10px; color: #007BFF; }
+
+        /* Contact */
+        form { background: white; padding: 20px; border-radius: 5px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); max-width: 600px; margin: auto; }
+        form input, form textarea { width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 5px; }
+        form button { background: #007BFF; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; }
+        form button:hover { background: #0056b3; }
+
+        /* Footer */
+        footer { text-align: center; padding: 20px; background: #f1f1f1; margin-top: 40px; }
+
+        /* Responsive */
+        @media(max-width: 768px) {
+            .skills { justify-content: center; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Ghaith Abo Adla</h1>
+        <p>Odoo Developer | Python Backend Developer</p>
+    </header>
+
+    <!-- About -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Odoo developer with 3+ years of experience building customized business solutions. Skilled in developing and customizing Odoo modules, integrating third-party APIs, optimizing workflows, and delivering seamless user experiences across CRM, POS, Accounting, and E-commerce systems. Experienced in projects across the Middle East and Europe.</p>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills">
+            <span>Odoo (v14–v17)</span>
+            <span>Python (ORM, models, controllers)</span>
+            <span>XML / QWeb / Views</span>
+            <span>JavaScript / OWL / POS</span>
+            <span>API Integrations (REST, SOAP)</span>
+            <span>PostgreSQL</span>
+            <span>Linux / Nginx / Odoo.sh</span>
+            <span>Git / GitHub</span>
+            <span>CRM, Sales, Purchase, POS, Accounting</span>
+            <span>HR & Payroll</span>
+            <span>E-Commerce & Website Customization</span>
+            <span>Reporting & Dashboards (QWeb, Excel, PDF)</span>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <h2>Projects</h2>
+        
+        <div class="project">
+            <h3>Online Appointment & Teacher Booking</h3>
+            <p>Dynamic calendar and booking system with multiple time ranges, integrated with the website for smooth UX.</p>
+        </div>
+
+        <div class="project">
+            <h3>POS Enhancements</h3>
+            <p>Custom receipts, profit calculations, discount validation, and invoice pop-ups for improved POS functionality.</p>
+        </div>
+
+        <div class="project">
+            <h3>MyFatoorah Payment Gateway Integration</h3>
+            <p>Payment link generation, callback handling, and secure token-based API integration for Odoo.</p>
+        </div>
+
+        <div class="project">
+            <h3>Teacher Categories & Website Customization</h3>
+            <p>Dynamic filtering, filmstrip-style category view, and AJAX product updates for seamless website experience.</p>
+        </div>
+
+        <div class="project">
+            <h3>Dynamic Reporting & Accounting</h3>
+            <p>Sales-by-category/item reports, customer grouping, and profit/cost calculations for enhanced reporting.</p>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="mailto:ghaith.abo.adla@example.com" method="POST" enctype="text/plain">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Ghaith Abo Adla. All rights reserved. | <a href="https://linkedin.com/in/ghaithaboadla" target="_blank">LinkedIn</a> | <a href="https://github.com/ghaithaboadla" target="_blank">GitHub</a></p>
+    </footer>
+
+</body>
+</html>
